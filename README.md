@@ -13,7 +13,9 @@ DSGN is a 3D object detector with only input of a stereo image pair, which can j
  <img src="doc/pipeline.png">
 </div>
 
-We have a [video demo](https://www.youtube.com/watch?v=MbROLiuF6BY) for showing the result of DSGN.
+### Demo
+
+We provide a [video demo](https://www.youtube.com/watch?v=MbROLiuF6BY) for showing the result of DSGN.
 
 ### Code
 Code will be made available.
