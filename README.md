@@ -15,7 +15,7 @@ DSGN is a 3D object detector with only input of a stereo image pair, which can j
 
 ### Demo
 
-We provide a [video demo](https://www.youtube.com/watch?v=MbROLiuF6BY) for showing the result of DSGN. Here we show the predicted depth map and 3D detection results on both front view and bird's eye view.
+We provide a [video demo](https://www.youtube.com/watch?v=u6mQW89wBbo) for showing the result of DSGN. Here we show the predicted depth map and 3D detection results on both front view and bird's eye view.
 
 ### Code
 Code will be made available.
