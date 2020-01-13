@@ -7,6 +7,8 @@ DSGN is a 3D object detector with only input of a stereo image pair, which can j
  <img src="doc/sample_result.png">
 </div>
 
+[[arXiv]](https://arxiv.org/abs/2001.03398)&nbsp;  [[Demo]](https://www.youtube.com/watch?v=u6mQW89wBbo)&nbsp;
+
 ### Method
 
 <div align="center">
