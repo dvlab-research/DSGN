@@ -1,0 +1,11 @@
+python3 ./tools/train_net.py \
+  --cfg ./configs/default/config_human.py \
+  --savemodel ./outputs/dsgn_human_trainval \
+  --loadmodel ./outputs/dsgn_disp_trainval/finetune_45.tar \
+  --split_file ./data/kitti/trainval.txt \
+  --start_epoch 1 \
+  --lr_scale 18 \
+  --epochs 25 \
+  -btrain 2 \
+  -d 0-1 \
+  --multiprocessing-distributed 
