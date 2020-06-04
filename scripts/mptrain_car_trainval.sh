@@ -4,7 +4,7 @@ python3 ./tools/train_net.py \
   --split_file ./data/kitti/trainval.txt \
   --start_epoch 1 \
   --lr_scale 32 \
-  --epochs 45 \
+  --epochs 38 \
   -btrain 4 \
   -d 0-3 \
   --multiprocessing-distributed 
