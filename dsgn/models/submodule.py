@@ -167,6 +167,24 @@ class feature_extraction(nn.Module):
             nr_convs = [3, 6, 12, 4]
             branch_dim = 32
             lastconv_dim = [256, 32]
+        elif self.backbone == 'reslike-det-small-fixfirst':
+            first_dim = 16
+            dims = [32, 64, 128, 192]
+            nr_convs = [3, 6, 12, 4]
+            branch_dim = 32
+            lastconv_dim = [256, 32]
+        elif self.backbone == 'reslike50-det-small-fixfirst':
+            first_dim = 16
+            dims = [32, 64, 128, 256]
+            nr_convs = [3, 4, 6, 3]
+            branch_dim = 32
+            lastconv_dim = [256, 32]
+        elif self.backbone == 'reslike50-det-tiny':
+            first_dim = 8
+            dims = [16, 32, 64, 128]
+            nr_convs = [3, 4, 6, 3]
+            branch_dim = 32
+            lastconv_dim = [128, 32]
         else:
             raise ValueError('Invalid backbone {}.'.format(self.backbone))
 

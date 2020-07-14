@@ -151,6 +151,8 @@ We provide several pretrained models for our experiments, which are evaluated on
             <th>Methods</th>
             <th>Epochs</th>
             <!-- <th>Inference Time(s/im)</th> -->
+            <th>Train Mem (GB/Img)</th>
+            <th>Test Mem (GB/Img)</th>
             <th>3D AP</th>
             <th>BEV AP</th>
             <th>2D AP</th>
@@ -161,6 +163,8 @@ We provide several pretrained models for our experiments, which are evaluated on
         <tr>
             <td>DSGN(Car)</td>
             <td>53</td>
+            <td>~29</td>
+            <td>6.05</td>
             <td>53.95</td>
             <td>64.44</td>
             <td>84.62</td>
@@ -169,6 +173,8 @@ We provide several pretrained models for our experiments, which are evaluated on
         <tr>
             <td>DSGN(Pedestrian)</td>
             <td rowspan=2>27</td>
+            <td rowspan=2> ~27 </td>
+            <td rowspan=2> 5.47 </td>
             <td>31.42</td>
             <td>39.35</td>
             <td>55.68</td>
@@ -179,6 +185,26 @@ We provide several pretrained models for our experiments, which are evaluated on
             <td>23.16</td>
             <td>24.81</td>
             <td>32.86</td>
+        </tr>
+        <tr>
+            <td>DSGN_24g(Car)</td>
+            <td>53</td>
+            <td>~24</td>
+            <td>~6</td>
+            <td>51.05</td>
+            <td>61.04</td>
+            <td>83.46</td>
+            <td> TODO </td>
+        </tr>
+        <tr>
+            <td>DSGN_12g(Car)</td>
+            <td>48</td>
+            <td>10.0</td>
+            <td>3.0</td>
+            <td>44.61</td>
+            <td>55.70</td>
+            <td>78.25</td>
+            <td><a href="https://drive.google.com/file/d/1dwRTzkNd7-g2tcakjFm5RrbPZ55Yi85h/view?usp=sharing"> GoogleDrive </a></td>
         </tr>
     </tbody>
 </table>
@@ -192,8 +218,8 @@ We provide a video demo for showing the result of DSGN. Here we show the predict
 ### TODO List
 - [x] Multiprocessing GPU training
 - [x] TensorboardX
+- [x] Reduce training GPU memory usage
 - [ ] Result visualization
-- [ ] Reduce training GPU memory usage
 - [ ] Still in progress
 
 ### Troubleshooting
