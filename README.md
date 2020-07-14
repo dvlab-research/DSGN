@@ -204,7 +204,7 @@ We provide several pretrained models for our experiments, which are evaluated on
             <td>44.61</td>
             <td>55.70</td>
             <td>78.25</td>
-            <td><a href="https://drive.google.com/file/d/1dwRTzkNd7-g2tcakjFm5RrbPZ55Yi85h/view?usp=sharing"> GoogleDrive </a></td>
+            <td><a href="https://drive.google.com/file/d/1Vt7mcSV-_xw-HrgKhrza4KmLAOhrzeA0/view?usp=sharing"> GoogleDrive </a></td>
         </tr>
     </tbody>
 </table>
