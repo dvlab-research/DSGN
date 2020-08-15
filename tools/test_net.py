@@ -129,7 +129,7 @@ model.cuda()
 
 if args.loadmodel is not None and args.loadmodel.endswith('tar'):
     state_dict = torch.load(args.loadmodel)
-    model.load_state_dict(state_dict['state_dict'])
+    model.load_state_dict(state_dict['state_dict'], strict=False)
     print('Loaded {}'.format(args.loadmodel))
 else:
     print('------------------------------ Load Nothing ---------------------------------')
