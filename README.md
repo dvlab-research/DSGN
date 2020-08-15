@@ -137,7 +137,7 @@ and visualize your training process by accessing https://localhost:6666 on your 
 
 Evaluating the models by
 ```
-python3 tools/test_net.py --loadmodel ./outputs/MODEL_NAME -btest 8 -d 0-3
+python3 tools/test_net.py --loadmodel ./outputs/MODEL_NAME/finetune_xx.tar -btest 8 -d 0-3
 ```
 KITTI Detection results and evaluation results will be saved in the model folder. 
 
